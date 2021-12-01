@@ -6,6 +6,9 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+body {
+  background-color: #f8f8f8;
+}
 
 /*
  * Base structure
