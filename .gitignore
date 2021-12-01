@@ -2,3 +2,8 @@
 # Eclipse IDE
 #
 .project
+#
+# Symbolic link to current dir for GitHub Pages suport:
+# ln -s . repaper-it
+#
+repaper-it
