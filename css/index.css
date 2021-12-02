@@ -1,30 +1,4 @@
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-}
-
 body {
-  background-color: #f8f8f8;
-}
-
-/*
- * Base structure
- */
-.background {
-  position: absolute;
-  z-index: -1;
-  background-image: url("/repaper-it/img/repaper_box.jpg");
-  background-repeat:no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.background-overlay {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active {
@@ -61,33 +35,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
 }
 
 .cover-container {
-  max-width: 42em;
-  z-index: 1;
 }
 
-
-/*
- * Header
- */
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+iframe.map, img.map {
+  width: 100%;
 }
