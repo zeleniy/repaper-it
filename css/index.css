@@ -1,8 +1,9 @@
 body {
+
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active {
-  color: darkorange;
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -32,9 +33,4 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
 
 .subtitle {
   font-size: 1.5rem;
-}
-
-
-iframe.map, img.map {
-  width: 100%;
 }
